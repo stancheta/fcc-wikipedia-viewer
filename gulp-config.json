@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "css": [
+      "build/css/*.min.css"
+    ],
+    "javascript": [
+      "build/js/*.min.js"
+    ],
+    "vendorcss": [
+      "bower_components/normalize-css/normalize.css",
+      "bower_components/bootstrap-css/css/bootstrap.css",
+      "bower_components/bootstrap-css/css/bootstrap-theme.css"
+    ],
+    "vendorjs": [
+      "bower_components/jquery/dist/jquery.min.js",
+      "bower_components/bootstrap-css/js/bootstrap.min.js"
+    ]
+  }
+}
