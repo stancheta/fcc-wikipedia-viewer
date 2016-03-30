@@ -1,1 +1,78 @@
 
+
+body {
+  background-color: ivory;
+
+}
+
+.h1, h1 {
+  font: 5em Times, serif;
+  text-align: center;
+}
+
+.btn-large {
+
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 6px 15px;
+
+}
+.btn-large:active, .btn-large:focus {
+  padding: 5px 14px;
+}
+.btn-search {
+  float: right;
+right: -70px;
+}
+
+.padding {
+  padding-top: 250px;
+}
+
+.small-padding {
+  padding-top: 50px;
+}
+
+.wiki-btn {
+  background-color: DarkBlue;
+  border: none;
+  color: white;
+}
+.wiki-btn:active, .wiki-btn:focus {
+  background-color: MidnightBlue;
+  border: 1px solid white;
+  color: white;
+  outline-style: double;
+  outline-color: MidnightBlue;
+
+}
+.wiki-search {
+  border: 1px solid #ccc;
+  font-size: 18px;
+  padding: 0 0 0 10px;
+  height: 40px;
+  right: -70px;
+  width: 100%;
+}
+.wiki-search:active, .wiki-search:focus {
+  border: 2px solid DarkBlue;
+  outline: 0;
+  padding: 0 0 0 9px;
+}
+.wiki-search-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  width: -moz-calc(100% - 60px);
+  width: -webkit-calc(100% - 60px);
+  width: calc(100% - 60px);
+  /*margin: auto;*/
+  text-align: left;
+  /*width: 100%;*/
+}
+
+
+@media only screen and (max-width:640px) {
+
+   h1 { font-size: 11.25vw; }
+   .padding { padding-top: 125px;}
+}
