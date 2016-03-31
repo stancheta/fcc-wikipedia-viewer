@@ -103,7 +103,7 @@ gulp.task('js-watch', function() {
   runSequence('js', 'inject-assets', reload);
 });
 gulp.task('css-watch', function() {
-  runSequence('css', 'inject-assets', browserSync.reload('main.min.css'));
+  runSequence('css', 'inject-assets', reload);
 });
 gulp.task('img-watch', function() {
   runSequence('img', reload);

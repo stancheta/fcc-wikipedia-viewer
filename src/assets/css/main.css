@@ -25,6 +25,12 @@ body {
 right: -70px;
 }
 
+.no-style, .no-style:hover {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+
 .padding {
   padding-top: 250px;
 }
@@ -46,6 +52,15 @@ right: -70px;
   outline-color: MidnightBlue;
 
 }
+
+.wiki-list-elt {
+
+}
+
+.wiki-list-elt:hover {
+
+}
+
 .wiki-search {
   border: 1px solid #ccc;
   font-size: 18px;
@@ -65,9 +80,7 @@ right: -70px;
   width: -moz-calc(100% - 60px);
   width: -webkit-calc(100% - 60px);
   width: calc(100% - 60px);
-  /*margin: auto;*/
   text-align: left;
-  /*width: 100%;*/
 }
 
 
