@@ -103,7 +103,7 @@ gulp.task('js-watch', function() {
   runSequence('js', 'inject-assets', reload);
 });
 gulp.task('css-watch', function() {
-  runSequence('css', 'inject-assets', reload);
+  runSequence('css', 'inject-assets', browserSync.reload('main.min.css'));
 });
 gulp.task('img-watch', function() {
   runSequence('img', reload);
@@ -113,6 +113,7 @@ gulp.task('img-watch', function() {
 gulp.task('serve', function() {
   // Serve files from the root of this project
   browserSync.init({
+    notify: false,
     server: {
       baseDir: "build"
     }
